@@ -255,21 +255,13 @@ trục X bên phía trái.
     }
 
     .header p{
-        font-size: 2rem;
-    }
-
-    .container .slide-container .slide .content h3 {
-        font-size: 2rem;
-    }
-}
-
-@media (max-width: 361px) {
-    .header p{
         font-size: 1.5rem;
     }
-    .container .slide-container .slide .content h3 {
-        font-size: 1.75rem;
-    }
 
+    .container .slide-container .slide .content h3 {
+        font-size: 1.5rem;
+    }
 }
+
+
 
