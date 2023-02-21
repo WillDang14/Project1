@@ -16,6 +16,8 @@
 
     /* Viết hoa chữ cái đầu mỗi word */
     text-transform: capitalize;
+
+    font-size: 62.5%;
 }
 
 .header {
@@ -42,7 +44,7 @@
 }
 
 .header p {
-    font-size: 32px;
+    font-size: 3rem;
     font-weight: 700;
 }
 /* ============================================================================================= */
@@ -124,14 +126,18 @@ trục X bên phía trái.
 
 /* ============================================================================================= */
 .container .slide-container .slide .content h3 {
-    font-size: 35px;
+    /* font-size: 35px; */
+    font-size: 4rem;
+
     color: #333;
 
     /* border: 1px solid blue; */
 }
 
 .container .slide-container .slide .content p {
-    font-size: 16px;
+    /* font-size: 16px; */
+    font-size: 2rem;
+
     color: #666;
 
     padding: 10px 0;
@@ -148,7 +154,9 @@ trục X bên phía trái.
     
     background: #666;
     color: #fff;
-    font-size: 17px;
+
+    /* font-size: 17px; */
+    font-size: 2.4rem;
 }
 
 .container .slide-container .slide .content .btn:hover {
@@ -241,26 +249,26 @@ trục X bên phía trái.
     }
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 1080px) {
     .header {
         top: 5px;
     }
 
     .header p{
-        font-size: 24px;
+        font-size: 2rem;
     }
 
     .container .slide-container .slide .content h3 {
-        font-size: 24px;
+        font-size: 2rem;
     }
 }
 
 @media (max-width: 361px) {
     .header p{
-        font-size: 16px;
+        font-size: 1.5rem;
     }
     .container .slide-container .slide .content h3 {
-        font-size: 20px;
+        font-size: 1.75rem;
     }
 
 }
