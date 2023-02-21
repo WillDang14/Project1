@@ -249,17 +249,17 @@ trục X bên phía trái.
     }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1081px) {
     .header {
         top: 5px;
     }
 
     .header p{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .container .slide-container .slide .content h3 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 }
 
